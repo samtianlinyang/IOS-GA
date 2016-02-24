@@ -11,7 +11,7 @@ import UIKit
 class photoViewController: UIViewController {
 
     @IBAction func dismissButtonPressed(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
 }

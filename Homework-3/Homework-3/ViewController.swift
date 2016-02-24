@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    @IBAction func swipeGesture(sender: AnyObject) {
+        performSegueWithIdentifier("toModal", sender: nil)
+    }
+    
+    
+    @IBAction func buttonPressed(sender: AnyObject) {
+        performSegueWithIdentifier("tableview", sender: nil
+        )
+    }
+    
 }
 

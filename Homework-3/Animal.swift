@@ -42,3 +42,10 @@ class Animal {
     }
     
 }
+
+
+class subclassAnimalName: AnimalName {
+    override func prettyAnimalName() -> String {
+        return "overrode"
+    }
+}

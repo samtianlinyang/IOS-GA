@@ -12,6 +12,8 @@ class tableViewController: UITableViewController {
     
     var animalArray = [Animal(name: AnimalName(name: "Rover")), Animal(name: AnimalName(name: "Mittens")), Animal(name: AnimalName(name: "Ein")), Animal(name: AnimalName(name: "Sadie"))]
     let dog = Animal(animal: "Dog", name: AnimalName(name: "Puppy"))
+    let subclass = Animal.init(animal: "Sam", name: AnimalName(name: "Sammy"))
+    
 //    let cat = Animal(name: AnimalName(name: "Peter"))
     
     
@@ -19,6 +21,7 @@ class tableViewController: UITableViewController {
         super.viewDidLoad()
         
         animalArray.append(dog)
+        animalArray.append(subclass)
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
