@@ -21,6 +21,9 @@ class Exercise4ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        button.layer.cornerRadius = 2;
+        button.layer.borderWidth = 1;
+        button.layer.borderColor = UIColor.redColor().CGColor
 
         // Do any additional setup after loading the view.
     }
