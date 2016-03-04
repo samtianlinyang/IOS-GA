@@ -10,6 +10,15 @@ import UIKit
 
 class Exercise4ViewController: UIViewController {
 
+    @IBOutlet var button: UIButton!
+    @IBAction func buttonClicked(sender: AnyObject) {
+        if button.backgroundColor == UIColor.greenColor() {
+            button.backgroundColor = UIColor.redColor()
+        } else {
+            button.backgroundColor = UIColor.greenColor()
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
