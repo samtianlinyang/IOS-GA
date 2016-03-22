@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5127A881C97D39900ED4710 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5127A871C97D39900ED4710 /* SettingViewController.swift */; };
+		B535AA091C8F9EC4000A5879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535AA081C8F9EC4000A5879 /* AppDelegate.swift */; };
+		B535AA0B1C8F9EC4000A5879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535AA0A1C8F9EC4000A5879 /* ViewController.swift */; };
+		B535AA0E1C8F9EC4000A5879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B535AA0C1C8F9EC4000A5879 /* Main.storyboard */; };
+		B535AA101C8F9EC4000A5879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B535AA0F1C8F9EC4000A5879 /* Assets.xcassets */; };
+		B535AA131C8F9EC4000A5879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B535AA111C8F9EC4000A5879 /* LaunchScreen.storyboard */; };
+		B535AA291C8FA41A000A5879 /* spade 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA1B1C8FA41A000A5879 /* spade 4.png */; };
+		B535AA2A1C8FA41A000A5879 /* spade 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA1C1C8FA41A000A5879 /* spade 2.png */; };
+		B535AA2B1C8FA41A000A5879 /* spade 10.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA1D1C8FA41A000A5879 /* spade 10.png */; };
+		B535AA2C1C8FA41A000A5879 /* spade 11.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA1E1C8FA41A000A5879 /* spade 11.png */; };
+		B535AA2D1C8FA41A000A5879 /* spade q.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA1F1C8FA41A000A5879 /* spade q.png */; };
+		B535AA2E1C8FA41A000A5879 /* spade a.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA201C8FA41A000A5879 /* spade a.png */; };
+		B535AA2F1C8FA41A000A5879 /* spade 9.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA211C8FA41A000A5879 /* spade 9.png */; };
+		B535AA301C8FA41A000A5879 /* spade 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA221C8FA41A000A5879 /* spade 3.png */; };
+		B535AA311C8FA41A000A5879 /* spade 8.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA231C8FA41A000A5879 /* spade 8.png */; };
+		B535AA341C8FA41A000A5879 /* spade k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B535AA261C8FA41A000A5879 /* spade k.jpg */; };
+		B535AA351C8FA41A000A5879 /* spade jack.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA271C8FA41A000A5879 /* spade jack.png */; };
+		B535AA391C8FA832000A5879 /* spade 5.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA381C8FA832000A5879 /* spade 5.png */; };
+		B535AA3B1C8FAA31000A5879 /* spade 6.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA3A1C8FAA31000A5879 /* spade 6.png */; };
+		B535AA3D1C8FAA3F000A5879 /* spade 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B535AA3C1C8FAA3F000A5879 /* spade 7.png */; };
+		B54BB8CA1C9242F100A5C8D5 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BB8C91C9242F100A5C8D5 /* Class.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5127A871C97D39900ED4710 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B535AA051C8F9EC4000A5879 /* Beat the house (Blackjack).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beat the house (Blackjack).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535AA081C8F9EC4000A5879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B535AA0A1C8F9EC4000A5879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B535AA0D1C8F9EC4000A5879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B535AA0F1C8F9EC4000A5879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B535AA121C8F9EC4000A5879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B535AA141C8F9EC4000A5879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B535AA1B1C8FA41A000A5879 /* spade 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 4.png"; sourceTree = "<group>"; };
+		B535AA1C1C8FA41A000A5879 /* spade 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 2.png"; sourceTree = "<group>"; };
+		B535AA1D1C8FA41A000A5879 /* spade 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 10.png"; sourceTree = "<group>"; };
+		B535AA1E1C8FA41A000A5879 /* spade 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 11.png"; sourceTree = "<group>"; };
+		B535AA1F1C8FA41A000A5879 /* spade q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade q.png"; sourceTree = "<group>"; };
+		B535AA201C8FA41A000A5879 /* spade a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade a.png"; sourceTree = "<group>"; };
+		B535AA211C8FA41A000A5879 /* spade 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 9.png"; sourceTree = "<group>"; };
+		B535AA221C8FA41A000A5879 /* spade 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 3.png"; sourceTree = "<group>"; };
+		B535AA231C8FA41A000A5879 /* spade 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 8.png"; sourceTree = "<group>"; };
+		B535AA261C8FA41A000A5879 /* spade k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spade k.jpg"; sourceTree = "<group>"; };
+		B535AA271C8FA41A000A5879 /* spade jack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade jack.png"; sourceTree = "<group>"; };
+		B535AA381C8FA832000A5879 /* spade 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 5.png"; sourceTree = "<group>"; };
+		B535AA3A1C8FAA31000A5879 /* spade 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 6.png"; sourceTree = "<group>"; };
+		B535AA3C1C8FAA3F000A5879 /* spade 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade 7.png"; sourceTree = "<group>"; };
+		B54BB8C91C9242F100A5C8D5 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B535AA021C8F9EC4000A5879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B535A9FC1C8F9EC4000A5879 = {
+			isa = PBXGroup;
+			children = (
+				B535AA071C8F9EC4000A5879 /* Beat the house (Blackjack) */,
+				B535AA061C8F9EC4000A5879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B535AA061C8F9EC4000A5879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B535AA051C8F9EC4000A5879 /* Beat the house (Blackjack).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B535AA071C8F9EC4000A5879 /* Beat the house (Blackjack) */ = {
+			isa = PBXGroup;
+			children = (
+				B535AA081C8F9EC4000A5879 /* AppDelegate.swift */,
+				B535AA0A1C8F9EC4000A5879 /* ViewController.swift */,
+				B535AA0C1C8F9EC4000A5879 /* Main.storyboard */,
+				B5127A871C97D39900ED4710 /* SettingViewController.swift */,
+				B54BB8C91C9242F100A5C8D5 /* Class.swift */,
+				B535AA0F1C8F9EC4000A5879 /* Assets.xcassets */,
+				B535AA111C8F9EC4000A5879 /* LaunchScreen.storyboard */,
+				B535AA141C8F9EC4000A5879 /* Info.plist */,
+				B535AA1B1C8FA41A000A5879 /* spade 4.png */,
+				B535AA1C1C8FA41A000A5879 /* spade 2.png */,
+				B535AA1D1C8FA41A000A5879 /* spade 10.png */,
+				B535AA1E1C8FA41A000A5879 /* spade 11.png */,
+				B535AA1F1C8FA41A000A5879 /* spade q.png */,
+				B535AA201C8FA41A000A5879 /* spade a.png */,
+				B535AA211C8FA41A000A5879 /* spade 9.png */,
+				B535AA221C8FA41A000A5879 /* spade 3.png */,
+				B535AA231C8FA41A000A5879 /* spade 8.png */,
+				B535AA261C8FA41A000A5879 /* spade k.jpg */,
+				B535AA271C8FA41A000A5879 /* spade jack.png */,
+				B535AA381C8FA832000A5879 /* spade 5.png */,
+				B535AA3A1C8FAA31000A5879 /* spade 6.png */,
+				B535AA3C1C8FAA3F000A5879 /* spade 7.png */,
+			);
+			path = "Beat the house (Blackjack)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B535AA041C8F9EC4000A5879 /* Beat the house (Blackjack) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535AA171C8F9EC4000A5879 /* Build configuration list for PBXNativeTarget "Beat the house (Blackjack)" */;
+			buildPhases = (
+				B535AA011C8F9EC4000A5879 /* Sources */,
+				B535AA021C8F9EC4000A5879 /* Frameworks */,
+				B535AA031C8F9EC4000A5879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beat the house (Blackjack)";
+			productName = "Beat the house (Blackjack)";
+			productReference = B535AA051C8F9EC4000A5879 /* Beat the house (Blackjack).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B535A9FD1C8F9EC4000A5879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tianlin Yang";
+				TargetAttributes = {
+					B535AA041C8F9EC4000A5879 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B535AA001C8F9EC4000A5879 /* Build configuration list for PBXProject "Beat the house (Blackjack)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B535A9FC1C8F9EC4000A5879;
+			productRefGroup = B535AA061C8F9EC4000A5879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B535AA041C8F9EC4000A5879 /* Beat the house (Blackjack) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B535AA031C8F9EC4000A5879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535AA2D1C8FA41A000A5879 /* spade q.png in Resources */,
+				B535AA2B1C8FA41A000A5879 /* spade 10.png in Resources */,
+				B535AA341C8FA41A000A5879 /* spade k.jpg in Resources */,
+				B535AA131C8F9EC4000A5879 /* LaunchScreen.storyboard in Resources */,
+				B535AA2F1C8FA41A000A5879 /* spade 9.png in Resources */,
+				B535AA311C8FA41A000A5879 /* spade 8.png in Resources */,
+				B535AA2E1C8FA41A000A5879 /* spade a.png in Resources */,
+				B535AA391C8FA832000A5879 /* spade 5.png in Resources */,
+				B535AA3B1C8FAA31000A5879 /* spade 6.png in Resources */,
+				B535AA301C8FA41A000A5879 /* spade 3.png in Resources */,
+				B535AA101C8F9EC4000A5879 /* Assets.xcassets in Resources */,
+				B535AA3D1C8FAA3F000A5879 /* spade 7.png in Resources */,
+				B535AA2A1C8FA41A000A5879 /* spade 2.png in Resources */,
+				B535AA0E1C8F9EC4000A5879 /* Main.storyboard in Resources */,
+				B535AA2C1C8FA41A000A5879 /* spade 11.png in Resources */,
+				B535AA291C8FA41A000A5879 /* spade 4.png in Resources */,
+				B535AA351C8FA41A000A5879 /* spade jack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B535AA011C8F9EC4000A5879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54BB8CA1C9242F100A5C8D5 /* Class.swift in Sources */,
+				B535AA0B1C8F9EC4000A5879 /* ViewController.swift in Sources */,
+				B535AA091C8F9EC4000A5879 /* AppDelegate.swift in Sources */,
+				B5127A881C97D39900ED4710 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B535AA0C1C8F9EC4000A5879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B535AA0D1C8F9EC4000A5879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B535AA111C8F9EC4000A5879 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B535AA121C8F9EC4000A5879 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B535AA151C8F9EC4000A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B535AA161C8F9EC4000A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B535AA181C8F9EC4000A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beat the house (Blackjack)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BFT4ZV4ZG4.Beat-the-house--Blackjack-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B535AA191C8F9EC4000A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beat the house (Blackjack)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BFT4ZV4ZG4.Beat-the-house--Blackjack-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B535AA001C8F9EC4000A5879 /* Build configuration list for PBXProject "Beat the house (Blackjack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535AA151C8F9EC4000A5879 /* Debug */,
+				B535AA161C8F9EC4000A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535AA171C8F9EC4000A5879 /* Build configuration list for PBXNativeTarget "Beat the house (Blackjack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535AA181C8F9EC4000A5879 /* Debug */,
+				B535AA191C8F9EC4000A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B535A9FD1C8F9EC4000A5879 /* Project object */;
+}
