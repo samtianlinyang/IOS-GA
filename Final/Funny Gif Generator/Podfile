@@ -1,0 +1,16 @@
+
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'Funny Gif Generator' do
+pod 'GIFGenerator', '~> 0.2'
+pod 'Firebase', '>= 2.5.1'
+pod 'SwiftyJSON', '~> 2.3'
+pod 'Alamofire', '~> 3.2.1'
+pod 'AlamofireImage', '~> 2.3.1'
+pod 'SwiftyGif', '~> 1.0'
+pod 'SCRecorder', '~> 2.7'
+pod 'Regift', '~> 1.2'
+end
+
