@@ -20,8 +20,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     var currentPreviewGifURL : NSURL?
     
+    var firstLaunch: Bool = true
+    
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var slider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +63,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         let videoURL = getUrlForDocument(videoFileName)
         let frameCount = 16
-        let delayTime  = Float(0.2)
+        let delayTime  = Float(self.slider.value)
         let loopCount  = 0    // 0 means loop forever
         
         let regift = Regift(sourceFileURL: videoURL, frameCount: frameCount, delayTime: delayTime, loopCount: loopCount)
@@ -103,31 +106,30 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     @IBAction func previewGifPressed(sender: UIButton) {
         
+        generateAnimatedImage(imagesArray)
+        
+        self.imageView.alpha = 1
         self.imageView.animationImages = imagesArray
-        self.imageView.animationDuration = 1.0
+        self.imageView.animationDuration = Double(self.slider.value * 5)
         self.imageView.startAnimating()
-
+        
            }
     
     @IBAction func previewGIFfromVideoPressed(sender: UIButton) {
         
+        generateAnimatedGifFromVideo()
+        swiftyGifPreview()
+        
+    }
+    
+    func swiftyGifPreview() {
+        self.imageView.alpha = 1
         let gifmanager = SwiftyGifManager(memoryLimit:20)
         if let currentPreviewGif = currentPreviewGifURL {
             let data = NSData(contentsOfURL: currentPreviewGif)
             let gif = UIImage(gifData: data!)
             imageView.setGifImage(gif, manager: gifmanager, loopTime: -1)
         }
-
-        
-    }
-    
-    
-    @IBAction func saveGifPressed(sender: UIButton) {
-        generateAnimatedImage(imagesArray)
-    }
-    
-    @IBAction func videoGifPressed(sender: UIButton) {
-        generateAnimatedGifFromVideo()
     }
     
     
@@ -139,6 +141,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             
             print("Got an image")
             let image = info[UIImagePickerControllerOriginalImage] as? UIImage
+            self.imageView.alpha = 1
             imageView.image = image
             imagesArray.append(image!)
             imagePicker.dismissViewControllerAnimated(true, completion: nil)
@@ -170,6 +173,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
     
     func recordVideo() {
+        firstLaunch = false
         if (UIImagePickerController.isSourceTypeAvailable(.Camera)) {
             if UIImagePickerController.availableCaptureModesForCameraDevice(.Rear) != nil {
                 
@@ -235,6 +239,21 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         super.didReceiveMemoryWarning()
     }
     
+    
+    override func viewDidAppear(animated: Bool) {
+        if firstLaunch == true {
+            recordVideo()
+        }
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake {
+            
+            self.imageView.alpha = 0
+            
+        }
+    }
+
     
 }
 

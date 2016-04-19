@@ -29,13 +29,6 @@
                                     <action selector="takePicturePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HbU-OR-4Xb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v65-dN-Nhx">
-                                <rect key="frame" x="20" y="516" width="153" height="30"/>
-                                <state key="normal" title="Generate from images"/>
-                                <connections>
-                                    <action selector="saveGifPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="77W-Bh-2rn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8d-0o-bih">
                                 <rect key="frame" x="223" y="478" width="155" height="30"/>
                                 <state key="normal" title="Choose existing image"/>
@@ -50,49 +43,44 @@
                                     <action selector="takeVideoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zP3-Dl-KPa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkL-oa-Mda">
-                                <rect key="frame" x="439" y="516" width="141" height="30"/>
-                                <state key="normal" title="Generate from video"/>
-                                <connections>
-                                    <action selector="videoGifPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2H-wo-1Mb"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCo-TW-Fzp">
-                                <rect key="frame" x="425" y="554" width="155" height="30"/>
+                                <rect key="frame" x="425" y="526" width="155" height="30"/>
                                 <state key="normal" title="Preview Gif from video"/>
                                 <connections>
                                     <action selector="previewGIFfromVideoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVb-8q-1GL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iJ-mY-PWY">
-                                <rect key="frame" x="20" y="554" width="167" height="30"/>
+                                <rect key="frame" x="20" y="526" width="167" height="30"/>
                                 <state key="normal" title="Preview Gif from images"/>
                                 <connections>
                                     <action selector="previewGifPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzd-yn-yDO"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.01" maxValue="0.19" translatesAutoresizingMaskIntoConstraints="NO" id="9dI-Vo-xhJ">
+                                <rect key="frame" x="-2" y="562" width="604" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="5iJ-mY-PWY" firstAttribute="centerY" secondItem="Y8d-0o-bih" secondAttribute="centerY" id="3Je-Kw-aJZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9dI-Vo-xhJ" secondAttribute="bottom" constant="8" id="4Al-en-Gr6"/>
                             <constraint firstItem="Y8d-0o-bih" firstAttribute="centerX" secondItem="GVl-qa-xs7" secondAttribute="centerX" id="50k-eu-IRK"/>
-                            <constraint firstItem="v65-dN-Nhx" firstAttribute="top" secondItem="Y8d-0o-bih" secondAttribute="bottom" constant="8" id="5hA-oJ-SZf"/>
                             <constraint firstItem="GVl-qa-xs7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="EyK-7y-iud"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GVl-qa-xs7" secondAttribute="bottom" constant="88" id="H4W-Dc-RyN"/>
-                            <constraint firstItem="EkL-oa-Mda" firstAttribute="centerY" secondItem="v65-dN-Nhx" secondAttribute="centerY" id="HVE-PY-1eZ"/>
                             <constraint firstItem="5iJ-mY-PWY" firstAttribute="centerY" secondItem="GCo-TW-Fzp" secondAttribute="centerY" id="Hdv-z5-4nx"/>
+                            <constraint firstItem="9dI-Vo-xhJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JnX-8p-ZJQ"/>
                             <constraint firstItem="GVl-qa-xs7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="K4A-fT-JwV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GCo-TW-Fzp" secondAttribute="trailing" id="OSr-aV-df4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="EkL-oa-Mda" secondAttribute="trailing" id="SiM-77-aye"/>
                             <constraint firstItem="GVl-qa-xs7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.75" id="a9o-Re-fCp"/>
+                            <constraint firstItem="9dI-Vo-xhJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="aPH-cd-PJt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="liq-2r-q8p" secondAttribute="trailing" id="c4y-9S-1C5"/>
                             <constraint firstAttribute="leadingMargin" secondItem="5iJ-mY-PWY" secondAttribute="leading" id="cTf-XJ-dbX"/>
                             <constraint firstItem="GVl-qa-xs7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="djm-m8-75X"/>
                             <constraint firstAttribute="leadingMargin" secondItem="V0o-Na-6eH" secondAttribute="leading" id="dyD-Qk-sUS"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="v65-dN-Nhx" secondAttribute="leading" id="e0w-z7-NP5"/>
                             <constraint firstItem="V0o-Na-6eH" firstAttribute="centerY" secondItem="Y8d-0o-bih" secondAttribute="centerY" id="e2N-9v-YvI"/>
-                            <constraint firstItem="GCo-TW-Fzp" firstAttribute="top" secondItem="v65-dN-Nhx" secondAttribute="bottom" constant="8" id="e6H-pZ-Ksr"/>
                             <constraint firstItem="Y8d-0o-bih" firstAttribute="top" secondItem="GVl-qa-xs7" secondAttribute="bottom" constant="8" id="guZ-uF-Trk"/>
+                            <constraint firstItem="5iJ-mY-PWY" firstAttribute="top" secondItem="V0o-Na-6eH" secondAttribute="bottom" constant="18" id="n02-Ag-0TW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5iJ-mY-PWY" secondAttribute="trailing" id="pWt-gi-cbf"/>
                             <constraint firstItem="liq-2r-q8p" firstAttribute="centerY" secondItem="Y8d-0o-bih" secondAttribute="centerY" id="ppM-3F-kUW"/>
                         </constraints>
@@ -106,6 +94,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="GVl-qa-xs7" id="xgf-6v-S9S"/>
+                        <outlet property="slider" destination="9dI-Vo-xhJ" id="3oe-78-jAx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
